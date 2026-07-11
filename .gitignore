@@ -1,0 +1,64 @@
+# Environment Variables - NEVER COMMIT
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Submission outputs (intentionally committed)
+# report.html
+# final_findings.json
+# verification_report.json
+# patterns.json
+
+# Local inputs and legacy notes not included in the submission repository
+external_verification.json
+demo_findings.json
+PROJECT_SUMMARY.md
+SETUP_GUIDE.md
+SUBMISSION_GUIDE.md
+START_HERE.py
+demo_pipeline.py
+generate_realistic_data.py
+verify_sample.py
+verify_new_data.py
+check_findings.py
+
+# Temporary
+*.tmp
+*.temp
+.cache/

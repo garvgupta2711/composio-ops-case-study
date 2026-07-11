@@ -1,0 +1,124 @@
+{
+  "processing_note": "\u26a0\ufe0f  QUOTA LIMITED: Successfully analyzed 50 apps before OpenAI API quota exhausted. Apps 51-100 marked as unprocessed.",
+  "successful_apps": 50,
+  "unprocessed_apps": 50,
+  "auth_analysis": {
+    "most_common": [
+      [
+        "OAuth2",
+        40
+      ],
+      [
+        "API Key",
+        12
+      ],
+      [
+        "API Token",
+        6
+      ]
+    ],
+    "oauth2_percentage": 80.0,
+    "distribution": {
+      "OAuth2": 40,
+      "JWT Bearer Token": 1,
+      "API Key": 12,
+      "API Token": 6,
+      "JWT": 2,
+      "Basic Auth": 3,
+      "API Key / Basic Auth": 2,
+      "Bot Token": 2,
+      "Bearer Token": 1,
+      "API Key + Secret": 1,
+      "Developer Token": 1,
+      "API Access Token": 1,
+      "API Key / Consumer Secret": 1,
+      "Token": 1,
+      "OAuth 1.0a": 1,
+      "Access Token": 1,
+      "AWS IAM Signatures": 1
+    }
+  },
+  "accessibility_analysis": {
+    "distribution": {
+      "Tier 3: Partner/Admin Gated": 3,
+      "Tier 1: Fully Self-Serve": 40,
+      "Tier 2: Self-Serve + Approval": 7
+    },
+    "self_serve_count": 40,
+    "self_serve_percentage": 80.0,
+    "gated_count": 3,
+    "gated_percentage": 6.0
+  },
+  "buildability_analysis": {
+    "buildable_count": 40,
+    "buildable_percentage": 80.0,
+    "unbuildable_count": 3,
+    "unbuildable_percentage": 6.0,
+    "maybe_count": 7,
+    "top_blockers": [
+      [
+        "Requires Approval",
+        5
+      ],
+      [
+        "Enterprise Sales Wall",
+        2
+      ],
+      [
+        "Requires partner agreement or enterprise sales call",
+        1
+      ],
+      [
+        "API Limitations",
+        1
+      ],
+      [
+        "App review required for production access",
+        1
+      ]
+    ],
+    "blocker_distribution": {
+      "Requires partner agreement or enterprise sales call": 1,
+      "Enterprise Sales Wall": 2,
+      "API Limitations": 1,
+      "Requires Approval": 5,
+      "App review required for production access": 1
+    }
+  },
+  "quick_wins": {
+    "count": 40,
+    "apps": [
+      "HubSpot",
+      "Pipedrive",
+      "Attio",
+      "Twenty",
+      "Podio",
+      "Zoho CRM",
+      "Close",
+      "Copper",
+      "Zendesk",
+      "Intercom",
+      "Freshdesk",
+      "Front",
+      "LiveAgent",
+      "Plain",
+      "Help Scout"
+    ],
+    "percentage": 80.0
+  },
+  "hard_problems": {
+    "count": 3,
+    "apps": [
+      "Salesforce",
+      "DealCloud",
+      "Salesforce Commerce Cloud"
+    ],
+    "percentage": 6.0
+  },
+  "headline_findings": [
+    "80% of apps use OAuth2 as primary auth",
+    "40 apps (80%) offer fully self-serve access",
+    "40 apps (80%) have public buildable APIs",
+    "Top blocker: Requires Approval"
+  ]
+}

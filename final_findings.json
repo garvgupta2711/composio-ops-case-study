@@ -1,0 +1,1344 @@
+[
+  {
+    "id": 1,
+    "app_name": "Salesforce",
+    "category_one_liner": "Enterprise CRM platform",
+    "auth_methods": [
+      "OAuth2",
+      "JWT Bearer Token"
+    ],
+    "accessibility_tier": "Tier 3: Partner Gated",
+    "api_surface": "REST + SOAP",
+    "buildability_verdict": "NO",
+    "main_blocker": "Requires partner agreement or enterprise sales call",
+    "evidence_url": "https://developer.salesforce.com/docs/apis"
+  },
+  {
+    "id": 2,
+    "app_name": "HubSpot",
+    "category_one_liner": "All-in-one CRM for sales, marketing, support",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST (comprehensive)",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developers.hubspot.com/docs/api/overview"
+  },
+  {
+    "id": 3,
+    "app_name": "Pipedrive",
+    "category_one_liner": "Sales CRM with visual pipeline",
+    "auth_methods": [
+      "OAuth2",
+      "API Token"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developers.pipedrive.com/docs/api/v1"
+  },
+  {
+    "id": 4,
+    "app_name": "Attio",
+    "category_one_liner": "Modern CRM for growing teams",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST (Beta)",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://docs.attio.com/api",
+    "refinement_note": "Change accessibility_tier to 'Tier 1: Fully Self-Serve', buildability_verdict to 'YES', and main_blocker to 'None'.",
+    "refinement_evidence_urls": [
+      "https://docs.attio.com/api"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 5,
+    "app_name": "Twenty",
+    "category_one_liner": "Open-source CRM",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "GraphQL REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://twenty.com/developers"
+  },
+  {
+    "id": 6,
+    "app_name": "Podio",
+    "category_one_liner": "Customizable work platform",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developers.podio.com/api-reference",
+    "refinement_note": "Change accessibility_tier to 'Tier 1: Fully Self-Serve', buildability_verdict to 'YES', and main_blocker to 'None'.",
+    "refinement_evidence_urls": [
+      "https://developers.podio.com/api-reference"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 7,
+    "app_name": "Zoho CRM",
+    "category_one_liner": "All-in-one cloud CRM suite",
+    "auth_methods": [
+      "OAuth2",
+      "JWT"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v2"
+  },
+  {
+    "id": 8,
+    "app_name": "Close",
+    "category_one_liner": "Sales automation for teams",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developer.close.com"
+  },
+  {
+    "id": 9,
+    "app_name": "Copper",
+    "category_one_liner": "Gmail-native CRM",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://copperapidocs.herokuapp.com",
+    "refinement_note": "Change accessibility_tier to 'Tier 1: Fully Self-Serve', buildability_verdict to 'YES', and main_blocker to 'None'.",
+    "refinement_evidence_urls": [
+      "https://copperapidocs.herokuapp.com"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 10,
+    "app_name": "DealCloud",
+    "category_one_liner": "Relationship intelligence platform",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 3: Partner Gated",
+    "api_surface": "REST",
+    "buildability_verdict": "NO",
+    "main_blocker": "Requires partnership agreement",
+    "evidence_url": "https://api.dealcloud.com/docs"
+  },
+  {
+    "id": 11,
+    "app_name": "Zendesk",
+    "category_one_liner": "Customer support platform",
+    "auth_methods": [
+      "OAuth2",
+      "Basic Auth"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developer.zendesk.com/api-reference"
+  },
+  {
+    "id": 12,
+    "app_name": "Intercom",
+    "category_one_liner": "Customer communication platform",
+    "auth_methods": [
+      "OAuth2",
+      "API Token"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developers.intercom.com/docs"
+  },
+  {
+    "id": 13,
+    "app_name": "Freshdesk",
+    "category_one_liner": "Cloud-based helpdesk solution",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developers.freshdesk.com/api"
+  },
+  {
+    "id": 14,
+    "app_name": "Front",
+    "category_one_liner": "Shared inbox for customer communication",
+    "auth_methods": [
+      "OAuth2",
+      "API Token"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://dev.frontapp.com"
+  },
+  {
+    "id": 15,
+    "app_name": "Pylon",
+    "category_one_liner": "Modern customer communication",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 2: Self-Serve + approval",
+    "api_surface": "REST (Early)",
+    "buildability_verdict": "MAYBE",
+    "main_blocker": "API still in development, limited endpoints",
+    "evidence_url": "https://docs.usepylon.com"
+  },
+  {
+    "id": 16,
+    "app_name": "LiveAgent",
+    "category_one_liner": "Live chat support software",
+    "auth_methods": [
+      "API Token",
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://www.liveagent.com/api",
+    "refinement_note": "Change accessibility_tier to 'Tier 1: Fully Self-Serve', buildability_verdict to 'YES', and main_blocker to 'None'.",
+    "refinement_evidence_urls": [
+      "https://www.liveagent.com/api"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 17,
+    "app_name": "Plain",
+    "category_one_liner": "Native customer support",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "GraphQL",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://docs.plain.com",
+    "refinement_note": "Change api_surface to 'GraphQL' and auth_methods to ['API Key', 'OAuth2'].",
+    "refinement_evidence_urls": [
+      "https://docs.plain.com"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 18,
+    "app_name": "Help Scout",
+    "category_one_liner": "Email-based customer support",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developer.helpscout.com"
+  },
+  {
+    "id": 19,
+    "app_name": "Gorgias",
+    "category_one_liner": "Ecommerce customer support",
+    "auth_methods": [
+      "OAuth2",
+      "API Key / Basic Auth"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://docs.gorgias.io/api",
+    "refinement_note": "Update auth_methods to ['OAuth2', 'API Key / Basic Auth'].",
+    "refinement_evidence_urls": [
+      "https://docs.gorgias.io/api"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 20,
+    "app_name": "Gladly",
+    "category_one_liner": "Enterprise customer experience platform",
+    "auth_methods": [
+      "API Token",
+      "Basic Auth"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developer.gladly.com",
+    "refinement_note": "Change auth_methods to ['API Token', 'Basic Auth'], accessibility_tier to 'Tier 1: Fully Self-Serve', and buildability_verdict to 'YES'.",
+    "refinement_evidence_urls": [
+      "https://developer.gladly.com"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 21,
+    "app_name": "Slack",
+    "category_one_liner": "Team communication platform",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://api.slack.com/docs"
+  },
+  {
+    "id": 22,
+    "app_name": "Twilio",
+    "category_one_liner": "Communication APIs (SMS, Voice, Video)",
+    "auth_methods": [
+      "Basic Auth"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://www.twilio.com/docs/api"
+  },
+  {
+    "id": 23,
+    "app_name": "Zoho Cliq",
+    "category_one_liner": "Team collaboration platform",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://cliq.zoho.com/developer"
+  },
+  {
+    "id": 24,
+    "app_name": "Lark (Larksuite)",
+    "category_one_liner": "All-in-one workspace platform",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://open.larksuite.com/document"
+  },
+  {
+    "id": 25,
+    "app_name": "Pumble",
+    "category_one_liner": "Team messaging app",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://pumble.com/developer-api"
+  },
+  {
+    "id": 26,
+    "app_name": "Discord",
+    "category_one_liner": "VoIP, instant messaging, digital distribution",
+    "auth_methods": [
+      "OAuth2",
+      "Bot Token"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://discord.com/developers/docs",
+    "refinement_note": "Update auth_methods to ['OAuth2', 'Bot Token'].",
+    "refinement_evidence_urls": [
+      "https://discord.com/developers/docs"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 27,
+    "app_name": "Telegram",
+    "category_one_liner": "Messaging app with Bot API",
+    "auth_methods": [
+      "Bot Token"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://core.telegram.org/bots/api"
+  },
+  {
+    "id": 28,
+    "app_name": "WhatsApp Business",
+    "category_one_liner": "Business messaging via WhatsApp",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "accessibility_tier": "Tier 2: Self-Serve + approval",
+    "api_surface": "REST",
+    "buildability_verdict": "MAYBE",
+    "main_blocker": "Requires business account and approval",
+    "evidence_url": "https://developers.facebook.com/docs/whatsapp"
+  },
+  {
+    "id": 29,
+    "app_name": "Aircall",
+    "category_one_liner": "Phone system for teams",
+    "auth_methods": [
+      "OAuth2",
+      "API Key / Basic Auth"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://aircall.io/developers",
+    "refinement_note": "Update auth_methods to ['OAuth2', 'API Key / Basic Auth'].",
+    "refinement_evidence_urls": [
+      "https://aircall.io/developers"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 30,
+    "app_name": "Vonage",
+    "category_one_liner": "Communications APIs (SMS, Voice)",
+    "auth_methods": [
+      "API Key + Secret",
+      "JWT"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developer.vonage.com",
+    "refinement_note": "Update auth_methods to ['API Key + Secret', 'JWT'].",
+    "refinement_evidence_urls": [
+      "https://developer.vonage.com"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 31,
+    "app_name": "Google Ads",
+    "category_one_liner": "Digital advertising platform",
+    "auth_methods": [
+      "OAuth2",
+      "Developer Token"
+    ],
+    "accessibility_tier": "Tier 2: Self-Serve + Approval",
+    "api_surface": "REST",
+    "buildability_verdict": "MAYBE",
+    "main_blocker": "Developer token approval required",
+    "evidence_url": "https://developers.google.com/google-ads/api",
+    "refinement_note": "Update auth_methods to ['OAuth2', 'Developer Token'], accessibility_tier to 'Tier 2: Self-Serve + approval', and buildability_verdict to 'MAYBE'.",
+    "refinement_evidence_urls": [
+      "https://developers.google.com/google-ads/api"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 32,
+    "app_name": "Meta Ads",
+    "category_one_liner": "Facebook & Instagram advertising",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developers.facebook.com/docs/marketing-apis"
+  },
+  {
+    "id": 33,
+    "app_name": "LinkedIn Ads",
+    "category_one_liner": "LinkedIn advertising platform",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 2: Self-Serve + approval",
+    "api_surface": "REST",
+    "buildability_verdict": "MAYBE",
+    "main_blocker": "Limited API access, approval needed",
+    "evidence_url": "https://learn.microsoft.com/en-us/linkedin/marketing"
+  },
+  {
+    "id": 34,
+    "app_name": "GoHighLevel",
+    "category_one_liner": "All-in-one marketing platform",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://highlevel.stoplight.io",
+    "refinement_note": "Update auth_methods to ['OAuth2'].",
+    "refinement_evidence_urls": [
+      "https://highlevel.stoplight.io"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 35,
+    "app_name": "Mailchimp",
+    "category_one_liner": "Email marketing and automation",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://mailchimp.com/developer/marketing/api"
+  },
+  {
+    "id": 36,
+    "app_name": "Klaviyo",
+    "category_one_liner": "Customer data & email platform",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developers.klaviyo.com"
+  },
+  {
+    "id": 37,
+    "app_name": "systeme.io",
+    "category_one_liner": "All-in-one funnel builder",
+    "auth_methods": [
+      "API Key"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://systeme.io/api"
+  },
+  {
+    "id": 38,
+    "app_name": "Pinterest",
+    "category_one_liner": "Visual discovery and bookmarking",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 2: Self-Serve + Approval",
+    "api_surface": "REST",
+    "buildability_verdict": "MAYBE",
+    "main_blocker": "App review required for production access",
+    "evidence_url": "https://developers.pinterest.com",
+    "refinement_note": "Change accessibility_tier to 'Tier 2: Self-Serve + approval' and buildability_verdict to 'MAYBE'.",
+    "refinement_evidence_urls": [
+      "https://developers.pinterest.com"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 39,
+    "app_name": "Threads (Meta)",
+    "category_one_liner": "Text-based social media",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 2: Self-Serve + approval",
+    "api_surface": "REST (Limited)",
+    "buildability_verdict": "MAYBE",
+    "main_blocker": "API access limited, approval required",
+    "evidence_url": "https://developers.facebook.com/docs/threads"
+  },
+  {
+    "id": 40,
+    "app_name": "SendGrid",
+    "category_one_liner": "Email API for developers",
+    "auth_methods": [
+      "API Key"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://docs.sendgrid.com/api-reference",
+    "refinement_note": "Change auth_methods to ['API Key'].",
+    "refinement_evidence_urls": [
+      "https://docs.sendgrid.com/api-reference"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 41,
+    "app_name": "Shopify",
+    "category_one_liner": "E-commerce platform",
+    "auth_methods": [
+      "OAuth2",
+      "API Access Token"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST + GraphQL",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://shopify.dev/api",
+    "refinement_note": "Change auth_methods to ['OAuth2', 'API Access Token'].",
+    "refinement_evidence_urls": [
+      "https://shopify.dev/api"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 42,
+    "app_name": "WooCommerce",
+    "category_one_liner": "WordPress e-commerce plugin",
+    "auth_methods": [
+      "API Key / Consumer Secret"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://woocommerce.com/document/woocommerce-rest-api",
+    "refinement_note": "Change auth_methods to ['API Key / Consumer Secret'].",
+    "refinement_evidence_urls": [
+      "https://woocommerce.com/document/woocommerce-rest-api"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 43,
+    "app_name": "BigCommerce",
+    "category_one_liner": "Enterprise e-commerce platform",
+    "auth_methods": [
+      "OAuth2",
+      "API Token"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developer.bigcommerce.com",
+    "refinement_note": "Change auth_methods to ['OAuth2', 'API Token'].",
+    "refinement_evidence_urls": [
+      "https://developer.bigcommerce.com"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 44,
+    "app_name": "Salesforce Commerce Cloud",
+    "category_one_liner": "Enterprise commerce platform",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 3: Partner Gated",
+    "api_surface": "REST",
+    "buildability_verdict": "NO",
+    "main_blocker": "Requires Salesforce partnership",
+    "evidence_url": "https://developer.salesforce.com/docs/commerce"
+  },
+  {
+    "id": 45,
+    "app_name": "Magento (Adobe Commerce)",
+    "category_one_liner": "Open-source e-commerce",
+    "auth_methods": [
+      "Token",
+      "OAuth 1.0a"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developer.adobe.com/commerce/webapi",
+    "refinement_note": "Change auth_methods to ['Token', 'OAuth 1.0a'].",
+    "refinement_evidence_urls": [
+      "https://developer.adobe.com/commerce/webapi"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 46,
+    "app_name": "Squarespace",
+    "category_one_liner": "Website and store builder",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://developers.squarespace.com",
+    "refinement_note": "Change auth_methods to ['API Key', 'OAuth2'].",
+    "refinement_evidence_urls": [
+      "https://developers.squarespace.com"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 47,
+    "app_name": "Ecwid",
+    "category_one_liner": "Shopping cart software",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://api-docs.ecwid.com",
+    "refinement_note": "Change auth_methods to ['OAuth2'].",
+    "refinement_evidence_urls": [
+      "https://api-docs.ecwid.com"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 48,
+    "app_name": "Gumroad",
+    "category_one_liner": "Creator commerce platform",
+    "auth_methods": [
+      "OAuth2",
+      "Access Token"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://gumroad.com/api",
+    "refinement_note": "Change auth_methods to ['OAuth2', 'Access Token'].",
+    "refinement_evidence_urls": [
+      "https://gumroad.com/api"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 49,
+    "app_name": "Amazon Selling Partner",
+    "category_one_liner": "Amazon seller tools API",
+    "auth_methods": [
+      "OAuth2",
+      "AWS IAM Signatures"
+    ],
+    "accessibility_tier": "Tier 2: Self-Serve + approval",
+    "api_surface": "REST",
+    "buildability_verdict": "MAYBE",
+    "main_blocker": "Requires seller account and approval",
+    "evidence_url": "https://developer-docs.amazon.com/sp-api",
+    "refinement_note": "Change auth_methods to ['OAuth2', 'AWS IAM Signatures'].",
+    "refinement_evidence_urls": [
+      "https://developer-docs.amazon.com/sp-api"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 50,
+    "app_name": "fanbasis",
+    "category_one_liner": "Creator community platform",
+    "auth_methods": [
+      "API Key"
+    ],
+    "accessibility_tier": "Tier 1: Fully Self-Serve",
+    "api_surface": "REST",
+    "buildability_verdict": "YES",
+    "main_blocker": "None",
+    "evidence_url": "https://fanbasis.com/api",
+    "refinement_note": "Change auth_methods to ['API Key'].",
+    "refinement_evidence_urls": [
+      "https://www.fanbasis.com/enterprises"
+    ],
+    "refined_from_external_verification": true
+  },
+  {
+    "id": 51,
+    "app_name": "App #51",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 52,
+    "app_name": "App #52",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 53,
+    "app_name": "App #53",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 54,
+    "app_name": "App #54",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 55,
+    "app_name": "App #55",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 56,
+    "app_name": "App #56",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 57,
+    "app_name": "App #57",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 58,
+    "app_name": "App #58",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 59,
+    "app_name": "App #59",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 60,
+    "app_name": "App #60",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 61,
+    "app_name": "App #61",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 62,
+    "app_name": "App #62",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 63,
+    "app_name": "App #63",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 64,
+    "app_name": "App #64",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 65,
+    "app_name": "App #65",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 66,
+    "app_name": "App #66",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 67,
+    "app_name": "App #67",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 68,
+    "app_name": "App #68",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 69,
+    "app_name": "App #69",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 70,
+    "app_name": "App #70",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 71,
+    "app_name": "App #71",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 72,
+    "app_name": "App #72",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 73,
+    "app_name": "App #73",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 74,
+    "app_name": "App #74",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 75,
+    "app_name": "App #75",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 76,
+    "app_name": "App #76",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 77,
+    "app_name": "App #77",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 78,
+    "app_name": "App #78",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 79,
+    "app_name": "App #79",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 80,
+    "app_name": "App #80",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 81,
+    "app_name": "App #81",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 82,
+    "app_name": "App #82",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 83,
+    "app_name": "App #83",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 84,
+    "app_name": "App #84",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 85,
+    "app_name": "App #85",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 86,
+    "app_name": "App #86",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 87,
+    "app_name": "App #87",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 88,
+    "app_name": "App #88",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 89,
+    "app_name": "App #89",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 90,
+    "app_name": "App #90",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 91,
+    "app_name": "App #91",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 92,
+    "app_name": "App #92",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 93,
+    "app_name": "App #93",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 94,
+    "app_name": "App #94",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 95,
+    "app_name": "App #95",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 96,
+    "app_name": "App #96",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 97,
+    "app_name": "App #97",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 98,
+    "app_name": "App #98",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 99,
+    "app_name": "App #99",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  },
+  {
+    "id": 100,
+    "app_name": "App #100",
+    "category_one_liner": "Not processed",
+    "auth_methods": [],
+    "accessibility_tier": "Unknown - Quota Exhausted",
+    "api_surface": "Unknown",
+    "buildability_verdict": "UNKNOWN",
+    "main_blocker": "OpenAI API quota exhausted - processing stopped at app #50",
+    "evidence_url": "N/A"
+  }
+]

@@ -1,0 +1,764 @@
+{
+  "timestamp": "2026-07-11T05:57:34.768557+00:00",
+  "verification_method": "External LLM-assisted verification with official-documentation citations",
+  "provider": "ChatGPT",
+  "sample_size": 50,
+  "source_record_count": 50,
+  "evidence_retrieved_count": 50,
+  "field_checks_evaluated": 200,
+  "field_checks_passed": 167,
+  "accuracy_percentage": 83.5,
+  "confidence_level": "Medium",
+  "verified_apps": [
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Salesforce supports OAuth 2.0 and JWT Bearer token flows. Developer Editions allow sandbox testing, but true enterprise production usage requires enterprise licenses or partner registration.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developer.salesforce.com/docs/apis"
+      ]
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "HubSpot features a fully self-serve developer ecosystem. Authentication utilizes OAuth 2.0 or Private App access tokens (API Keys), and its core surface is REST.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developers.hubspot.com/docs/api/overview"
+      ]
+    },
+    {
+      "app_id": 3,
+      "app_name": "Pipedrive",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Pipedrive's API is fully self-serve, allowing developers to generate API Tokens instantly or implement OAuth 2.0 for public apps to access its REST surface.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developers.pipedrive.com/docs/api/v1"
+      ]
+    },
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": false,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": false,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Attio's developer platform is fully self-serve via their workspace settings, using API Keys and OAuth 2.0. The API is robustly production-ready, no longer restricted as a limited beta blocker.",
+      "corrections": "Change accessibility_tier to 'Tier 1: Fully Self-Serve', buildability_verdict to 'YES', and main_blocker to 'None'.",
+      "evidence_urls": [
+        "https://docs.attio.com/api"
+      ]
+    },
+    {
+      "app_id": 5,
+      "app_name": "Twenty",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Twenty is an open-source platform providing fully self-serve access to both its GraphQL and REST API layers, authenticated via API keys or OAuth2.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://twenty.com/developers"
+      ]
+    },
+    {
+      "app_id": 6,
+      "app_name": "Podio",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": false,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": false,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Podio allows self-serve generation of API keys ('App credentials' or 'User credentials') within its configuration menus without a gating approval gate for initial developer setups.",
+      "corrections": "Change accessibility_tier to 'Tier 1: Fully Self-Serve', buildability_verdict to 'YES', and main_blocker to 'None'.",
+      "evidence_urls": [
+        "https://developers.podio.com/api-reference"
+      ]
+    },
+    {
+      "app_id": 7,
+      "app_name": "Zoho CRM",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Zoho CRM provides self-serve REST API access using OAuth 2.0 to access resources, allowing clients to generate developer keys dynamically.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://www.zoho.com/crm/developer/docs/api/v2"
+      ]
+    },
+    {
+      "app_id": 8,
+      "app_name": "Close",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Close offers a comprehensive REST API that is fully self-serve, utilizing API Keys and standard OAuth 2.0 mechanisms.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developer.close.com"
+      ]
+    },
+    {
+      "app_id": 9,
+      "app_name": "Copper",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": false,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": false,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Copper provides API keys and tokens directly from the settings panel on a self-serve basis to any standard workspace admin, without a strict custom review process.",
+      "corrections": "Change accessibility_tier to 'Tier 1: Fully Self-Serve', buildability_verdict to 'YES', and main_blocker to 'None'.",
+      "evidence_urls": [
+        "https://copperapidocs.herokuapp.com"
+      ]
+    },
+    {
+      "app_id": 10,
+      "app_name": "DealCloud",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "DealCloud's enterprise REST API layer requires formal deployment provisioning and coordinator verification, placing it strictly in an enterprise-gated tier.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://api.dealcloud.com/docs"
+      ]
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Zendesk provides direct REST API capabilities open self-serve to admins using Basic Authentication (email/token) or OAuth 2.0 protocols.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developer.zendesk.com/api-reference"
+      ]
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Intercom maintains an open Developer Hub offering self-serve creation of access tokens and OAuth applications to interface with their REST API surface.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developers.intercom.com/docs"
+      ]
+    },
+    {
+      "app_id": 13,
+      "app_name": "Freshdesk",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Freshdesk offers a fully self-serve REST API authenticated with an API Key per user or through Freshworks OAuth2 frameworks.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developers.freshdesk.com/api"
+      ]
+    },
+    {
+      "app_id": 14,
+      "app_name": "Front",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Front permits workspace administrators to instantly spawn API Tokens or establish OAuth apps to programmatically manipulate records via their REST endpoints.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://dev.frontapp.com"
+      ]
+    },
+    {
+      "app_id": 15,
+      "app_name": "Pylon",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Pylon's API is accessible via authentication tokens generated through its dashboard platform, with complete visibility restricted during active customer platform onboarding.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://docs.usepylon.com"
+      ]
+    },
+    {
+      "app_id": 16,
+      "app_name": "LiveAgent",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": false,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": false,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "LiveAgent provisions standard REST API keys self-serve inside the agent panel under Configuration > API without checking for vetting or special workflows.",
+      "corrections": "Change accessibility_tier to 'Tier 1: Fully Self-Serve', buildability_verdict to 'YES', and main_blocker to 'None'.",
+      "evidence_urls": [
+        "https://www.liveagent.com/api"
+      ]
+    },
+    {
+      "app_id": 17,
+      "app_name": "Plain",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": false,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Plain explicitly operates a production GraphQL API rather than REST, providing immediate self-serve API Keys and OAuth integration to developers.",
+      "corrections": "Change api_surface to 'GraphQL' and auth_methods to ['API Key', 'OAuth2'].",
+      "evidence_urls": [
+        "https://docs.plain.com"
+      ]
+    },
+    {
+      "app_id": 18,
+      "app_name": "Help Scout",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Help Scout provides self-serve OAuth 2.0 app creation capabilities through its profile configurations to safely interact with its Mailbox REST API.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developer.helpscout.com"
+      ]
+    },
+    {
+      "app_id": 19,
+      "app_name": "Gorgias",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Gorgias supports HTTP Basic Authentication using an API key alongside OAuth2 to perform operations on its REST endpoints.",
+      "corrections": "Update auth_methods to ['OAuth2', 'API Key / Basic Auth'].",
+      "evidence_urls": [
+        "https://docs.gorgias.io/api"
+      ]
+    },
+    {
+      "app_id": 20,
+      "app_name": "Gladly",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": false,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": false,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Gladly enforces HTTP Basic Authentication (email and API token) via its self-serve profile settings rather than standard OAuth2, and provides open tools like their CLI for custom API integrations once an account exists.",
+      "corrections": "Change auth_methods to ['API Token', 'Basic Auth'], accessibility_tier to 'Tier 1: Fully Self-Serve', and buildability_verdict to 'YES'.",
+      "evidence_urls": [
+        "https://developer.gladly.com"
+      ]
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Slack's Developer Hub allows instant creation of apps, token allocation, and Web/REST API configurations inside any workspace workspace.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://api.slack.com/docs"
+      ]
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Twilio offers a completely self-serve REST API authenticated utilizing HTTP Basic Auth (Account SID and Auth Token).",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://www.twilio.com/docs/api"
+      ]
+    },
+    {
+      "app_id": 23,
+      "app_name": "Zoho Cliq",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Zoho Cliq enables developers to integrate applications self-serve utilizing Zoho's consolidated OAuth 2.0 authentication mechanism over REST endpoints.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://cliq.zoho.com/developer"
+      ]
+    },
+    {
+      "app_id": 24,
+      "app_name": "Lark (Larksuite)",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Lark provides an open Developer Console allowing builders to instantly create internal or custom tenant applications with OAuth 2.0 validation rules over REST.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://open.larksuite.com/document"
+      ]
+    },
+    {
+      "app_id": 25,
+      "app_name": "Pumble",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Pumble permits self-serve generation of tokens and application profiles via their workspace administrative panel to access standard REST message options.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://pumble.com/developer-api"
+      ]
+    },
+    {
+      "app_id": 26,
+      "app_name": "Discord",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Discord provides direct self-serve access to its REST API utilizing both standard OAuth2 tokens for users and separate Bot Tokens via the Developer Portal.",
+      "corrections": "Update auth_methods to ['OAuth2', 'Bot Token'].",
+      "evidence_urls": [
+        "https://discord.com/developers/docs"
+      ]
+    },
+    {
+      "app_id": 27,
+      "app_name": "Telegram",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Telegram's Bot API is completely open and self-serve, authenticated entirely via a unique Bot Token delivered by @BotFather over HTTP REST endpoints.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://core.telegram.org/bots/api"
+      ]
+    },
+    {
+      "app_id": 28,
+      "app_name": "WhatsApp Business",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "WhatsApp Cloud API requires a Meta for Developers account alongside Facebook Business Verification approval workflows before launching to scale.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developers.facebook.com/docs/whatsapp"
+      ]
+    },
+    {
+      "app_id": 29,
+      "app_name": "Aircall",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Aircall relies on API Keys (ID and Token pairing) handled as Basic Auth for custom scripts, alongside supporting OAuth2 standard practices.",
+      "corrections": "Update auth_methods to ['OAuth2', 'API Key / Basic Auth'].",
+      "evidence_urls": [
+        "https://aircall.io/developers"
+      ]
+    },
+    {
+      "app_id": 30,
+      "app_name": "Vonage",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Vonage utilizes API Keys/Secrets alongside JSON Web Tokens (JWT) depending on the communication service category (e.g., Voice API).",
+      "corrections": "Update auth_methods to ['API Key + Secret', 'JWT'].",
+      "evidence_urls": [
+        "https://developer.vonage.com"
+      ]
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": false,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": false,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Google Ads API requires an OAuth 2.0 credential set AND a Developer Token which undergoes an internal access review workflow before getting approved for production applications.",
+      "corrections": "Update auth_methods to ['OAuth2', 'Developer Token'], accessibility_tier to 'Tier 2: Self-Serve + approval', and buildability_verdict to 'MAYBE'.",
+      "evidence_urls": [
+        "https://developers.google.com/google-ads/api"
+      ]
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Meta Marketing APIs are self-serve for initial setup using OAuth access tokens, though they feature structural app review checks to graduate access tiers.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developers.facebook.com/docs/marketing-apis"
+      ]
+    },
+    {
+      "app_id": 33,
+      "app_name": "LinkedIn Ads",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "LinkedIn Marketing APIs require OAuth 2.0 validation alongside explicit request provisioning approval through the developer portal.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://learn.microsoft.com/en-us/linkedin/marketing"
+      ]
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "GoHighLevel v2 API entirely enforces OAuth 2.0 protocols for authentication, while legacy V1 keys are being deprecated.",
+      "corrections": "Update auth_methods to ['OAuth2'].",
+      "evidence_urls": [
+        "https://highlevel.stoplight.io"
+      ]
+    },
+    {
+      "app_id": 35,
+      "app_name": "Mailchimp",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Mailchimp permits instantaneous generation of API keys in user settings or the use of standard OAuth 2.0 flows to operate on REST structures.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://mailchimp.com/developer/marketing/api"
+      ]
+    },
+    {
+      "app_id": 36,
+      "app_name": "Klaviyo",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Klaviyo enables self-serve creation of private API keys alongside standard OAuth 2.0 access setups via its developer system layout.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developers.klaviyo.com"
+      ]
+    },
+    {
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Systeme.io permits account holders to configure API keys self-serve inside settings menus to hit active public REST endpoints.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://systeme.io/api"
+      ]
+    },
+    {
+      "app_id": 38,
+      "app_name": "Pinterest",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": false,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": false,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Pinterest API requires submission for App Review approval to graduate out of Sandbox status for live production access, utilizing OAuth2.",
+      "corrections": "Change accessibility_tier to 'Tier 2: Self-Serve + approval' and buildability_verdict to 'MAYBE'.",
+      "evidence_urls": [
+        "https://developers.pinterest.com"
+      ]
+    },
+    {
+      "app_id": 39,
+      "app_name": "Threads (Meta)",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Threads utilizes Meta's OAuth flows via the Threads Graph API, requiring App Review verification to escape testing permissions.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developers.facebook.com/docs/threads"
+      ]
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "SendGrid authenticates strictly using API Keys formatted as Bearer tokens over its REST API endpoints, without supporting OAuth2.",
+      "corrections": "Change auth_methods to ['API Key'].",
+      "evidence_urls": [
+        "https://docs.sendgrid.com/api-reference"
+      ]
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Shopify supports OAuth 2.0 authentication for public apps, and custom apps utilize Admin API access tokens directly over REST and GraphQL.",
+      "corrections": "Change auth_methods to ['OAuth2', 'API Access Token'].",
+      "evidence_urls": [
+        "https://shopify.dev/api"
+      ]
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "WooCommerce authenticates native requests utilizing a Consumer Key and Consumer Secret pair via HTTP Basic Auth over REST, rather than OAuth2.",
+      "corrections": "Change auth_methods to ['API Key / Consumer Secret'].",
+      "evidence_urls": [
+        "https://woocommerce.com/document/woocommerce-rest-api"
+      ]
+    },
+    {
+      "app_id": 43,
+      "app_name": "BigCommerce",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "BigCommerce uses custom client API accounts issuing X-Auth-Token headers for request authorization, alongside OAuth flows for multi-tenant applications.",
+      "corrections": "Change auth_methods to ['OAuth2', 'API Token'].",
+      "evidence_urls": [
+        "https://developer.bigcommerce.com"
+      ]
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "auth_methods_verified": true,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Correct",
+      "evidence_summary": "Salesforce Commerce Cloud requires integration parameters via Account Manager OAuth structures, locked down behind corporate service agreements.",
+      "corrections": "None",
+      "evidence_urls": [
+        "https://developer.salesforce.com/docs/commerce"
+      ]
+    },
+    {
+      "app_id": 45,
+      "app_name": "Magento (Adobe Commerce)",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Adobe Commerce supports token-based authentication (Admin/Customer tokens) along with OAuth 1.0a configurations across REST endpoints.",
+      "corrections": "Change auth_methods to ['Token', 'OAuth 1.0a'].",
+      "evidence_urls": [
+        "https://developer.adobe.com/commerce/webapi"
+      ]
+    },
+    {
+      "app_id": 46,
+      "app_name": "Squarespace",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Squarespace provides self-serve API Keys directly within the Settings menu panel to interact with backend Commerce REST endpoints, alongside OAuth2.",
+      "corrections": "Change auth_methods to ['API Key', 'OAuth2'].",
+      "evidence_urls": [
+        "https://developers.squarespace.com"
+      ]
+    },
+    {
+      "app_id": 47,
+      "app_name": "Ecwid",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Ecwid requires OAuth 2.0 access tokens for both custom and public applications to interact with their REST API surface.",
+      "corrections": "Change auth_methods to ['OAuth2'].",
+      "evidence_urls": [
+        "https://api-docs.ecwid.com"
+      ]
+    },
+    {
+      "app_id": 48,
+      "app_name": "Gumroad",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Gumroad features self-serve generation of personal access tokens directly within account settings alongside supporting OAuth 2.0 applications.",
+      "corrections": "Change auth_methods to ['OAuth2', 'Access Token'].",
+      "evidence_urls": [
+        "https://gumroad.com/api"
+      ]
+    },
+    {
+      "app_id": 49,
+      "app_name": "Amazon Selling Partner",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "Amazon SP-API requires authentication using AWS Identity and Access Management (IAM) signature protocols alongside standard OAuth 2.0 LWA tokens.",
+      "corrections": "Change auth_methods to ['OAuth2', 'AWS IAM Signatures'].",
+      "evidence_urls": [
+        "https://developer-docs.amazon.com/sp-api"
+      ]
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "auth_methods_verified": false,
+      "accessibility_tier_verified": true,
+      "api_surface_verified": true,
+      "buildability_verdict_verified": true,
+      "evidence_url_verified": true,
+      "overall_status": "Partial",
+      "evidence_summary": "FanBasis functions as a white-glove payment infrastructure orchestration system. Access requires API keys and sandbox initialization via developer setup workflows.",
+      "corrections": "Change auth_methods to ['API Key'].",
+      "evidence_urls": [
+        "https://www.fanbasis.com/enterprises"
+      ]
+    }
+  ]
+}
